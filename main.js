@@ -24,3 +24,8 @@ form.addEventListener('submit', function(e) {
 
         linhas += linha;
     }
+
+    function atualizaTabela() {
+        tabelaContatos.innerHTML = linhas;
+    }
+});
